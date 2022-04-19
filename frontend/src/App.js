@@ -11,7 +11,7 @@ function App() {
       <Test>
         <Heading type="main" text="Heading 1" />
         <Heading type="sub" text="Heading 2" />
-        <Title>Title</Title>
+        <Title>Hello Dev!!!!</Title>
       </Test>
     </div>
   );
