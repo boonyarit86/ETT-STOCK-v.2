@@ -47,34 +47,48 @@ MEDIA QUERY MANAGER
 *,
 *::after,
 *::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
 html {
-    font-size: 62.5%; /*1 rem = 10px; 10px/16px = 62.5%*/
+  font-size: 62.5%; /*1 rem = 10px; 10px/16px = 62.5%*/
 }
 
 body {
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    line-height: 1.6;
-    color: var(--color-primary-black);
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--color-primary-black);
 }
 
 /* UTILITIES */
-.u-mg-tb { margin: 3rem 0 !important; }
-.u-mg-t { margin-top: 3rem !important; }
-.u-mg-b { margin-bottom: 3rem !important; }
-.u-mg-rl { margin: 0 3rem !important; }
+.u-mg-tb {
+  margin: 3rem 0 !important;
+}
+.u-mg-t {
+  margin-top: 3rem !important;
+}
+.u-mg-b {
+  margin-bottom: 3rem !important;
+}
+.u-mg-rl {
+  margin: 0 3rem !important;
+}
 
-
+/* Others */
+.title,
+.heading--main,
+.heading--sub {
+  display: block;
+  font-weight: 700;
+}
 
 /* @media only screen and (max-width: 75em) {
     html { */
-        /* 1 rem = 9px, 9/16 = 50% */
-        /* font-size: 56.25%; 
+/* 1 rem = 9px, 9/16 = 50% */
+/* font-size: 56.25%; 
     }
 } */

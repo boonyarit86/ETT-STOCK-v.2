@@ -1,10 +1,9 @@
 .heading--main,
 .heading--sub {
-  font-weight: 700;
   letter-spacing: -1px;
   line-height: 1.2;
-  display: block;
   background-color: blueviolet;
+  
 }
 
 .heading--main {
